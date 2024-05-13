@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Hero = () => {
     return (
@@ -15,7 +16,7 @@ const Hero = () => {
   <div
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
-    <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+    <div className="max-w-xl text-start ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Let us find your
 
@@ -27,19 +28,19 @@ const Hero = () => {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
-        <a
-          href="#"
-          className="block w-full rounded bg-blue-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        <Link
+          href="/property"
+          className="block w-full rounded bg-blue-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-300 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
         >
           View Property
-        </a>
+        </Link>
 
-        <a
-          href="#"
-          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-800 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+        <Link
+          href="/about"
+          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-800 shadow hover:text-blue-300 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Learn More
-        </a>
+        </Link>
       </div>
     </div>
   </div>

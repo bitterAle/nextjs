@@ -62,14 +62,14 @@ const Navbar = () => {
                   Home
                 
               </Link>
-              <Link href="/cars"
-                 className="text-black hover:bg-gray-700 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium">
-                  Cars
-                
-              </Link>
               <Link href="/about"
                  className="text-black hover:bg-gray-700 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium">
                   About
+                
+              </Link>
+              <Link href="/property"
+                 className="text-black hover:bg-gray-700 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium">
+                  Property
                 
               </Link>
               <Link href="/contact"
