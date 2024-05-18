@@ -6,6 +6,7 @@ import AboutPage from "@/components/AboutPage";
 import Prop from "@/components/Prop";
 import WhyUs from "@/components/WhyUs";
 import Testimonial from "@/components/Testimonial";
+// import ApiNew from "@/components/ApiNew";
 import Footer from "@/components/Footer";
 
 const PropData = [
@@ -53,6 +54,8 @@ export default function Home() {
     </div>
     <WhyUs/>
     <Testimonial/>
+
+    {/* <ApiNew/> */}
     <Footer/>
 
     </>

@@ -20,7 +20,7 @@ const Hero = () => {
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Let us find your
 
-        <strong className="block font-extrabold  text-blue-800"> Forever Home. </strong>
+        <strong className="block font-extrabold  bg-clip-text bg-gradient-to-r  from-yellow-400 to-pink-500  "> Forever Home. </strong>
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">
